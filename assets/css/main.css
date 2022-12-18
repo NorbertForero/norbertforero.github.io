@@ -2151,6 +2151,7 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 250px;
 				height: 250px;
+				align: center;
 			}
 
 /* List */
@@ -2643,10 +2644,14 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
+			margin: auto;
+			padding: auto;
+			align-content: center;
+			box-shadow: 0,0,37,0 ;
 		}
 
 /* Footer */
