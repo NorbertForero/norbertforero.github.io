@@ -2635,23 +2635,39 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h1 {
+
 			color: #ffffff;
+			font-size: xx-large;
+			margin: 0;
+			font-weight: var(--font-weight-bold);
 		}
 
-		#header h1 {
+		#header h2 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
-			line-height: 1.75em;
-			margin: 0;
+		}
 
+		#header h3 {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#header h4 {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#header h5 {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#header h6 {
+			color: rgba(255, 255, 255, 0.5);
 		}
 
 		#header .image.avatar {
 			margin: auto;
 			padding: auto;
 			align-content: center;
-			box-shadow: 0,0,37,0 ;
+			box-shadow: -9px -77px 300px -19px rgba(255,255,255,1);
 		}
 
 /* Footer */
