@@ -148,7 +148,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2em;
-		line-height: 1em;
+		line-height: 2em;
 	}
 
 	h2 {
@@ -2086,7 +2086,7 @@ input, select, textarea {
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
-				padding: 0 1.5em;
+				padding: 0 1em;
 				position: absolute;
 				text-align: center;
 				text-decoration: none;
@@ -2140,7 +2140,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			}
 
 			.image.avatar:before {
@@ -2602,15 +2602,15 @@ input, select, textarea {
 		background-attachment: scroll,								scroll;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 4em 4em;
+		padding: 3em 3em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header > * {
@@ -2626,7 +2626,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header strong, #header b {
@@ -3005,13 +3005,24 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 1922px) {
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 12pt;
+			body{
+				font-size: 14pt;
+			} 
+			input, select, textarea {
+				font-size: 16pt;
 			}
+
+		/* Header */
+
+		#header {
+			padding: 2em 2em 2em 2em;
+			width: 33%;
+		}
+
 
 	}
 
@@ -3043,7 +3054,7 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
-				line-height: 2.25em;
+				line-height: 1em;
 				margin-left: 0;
 				padding-left: 0;
 			}
@@ -3101,35 +3112,25 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: inherit;
 				background-color: #1f1815;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
-				padding: 4em 4em 6em 4em;
+				padding: 4em 4em 4em 4em;
 				position: relative;
 				text-align: center;
 				width: 100%;
-				position: absolute;
+				display: inline-block;
 			}
 
 				#footer .icons {
 					margin: 0 0 1em 0;
 				}
 
-				#footer .copyright {
-					margin: 0 0 1em 0;
-				}
 
-					#footer .copyright li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
-					}
 
 		/* Main */
 
