@@ -2151,6 +2151,9 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 250px;
 				height: 250px;
+				-webkit-box-shadow: 0px 0px 110px -30px rgba(255,255,255,1);
+				-moz-box-shadow: 0px 0px 110px -30px rgba(255,255,255,1);
+				box-shadow: 0px 0px 110px -30px rgba(255,255,255,1);
 			}
 
 /* List */
@@ -2664,8 +2667,6 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: auto;
 			padding: auto;
-			align-content: center;
-			box-shadow: -9px -77px 150px -19px rgba(255,255,255,1);
 		}
 
 /* Footer */
@@ -3022,9 +3023,6 @@ input, select, textarea {
 			padding: 2em 2em 2em 2em;
 			width: 33%;
 		}
-
-
-	}
 
 /* Large */
 
